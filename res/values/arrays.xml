@@ -1,964 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="addblacktype">
-        <item>Add from Contacts</item>
-        <item>Add from Call History</item>
-        <item>Add from the message list</item>
-        <item>Manually add</item>
-        <item>Added by region</item>
-        <item>From the classification markings added</item>
-    </string-array>
-    <string-array name="addwhitetype">
-        <item>Add from Contacts</item>
-        <item>Add from Call History</item>
-        <item>Add from the message list</item>
-        <item>Manually add</item>
-        <item>Added by region</item>
-    </string-array>
-    <string-array name="addnouseiptype">
-        <item>Add from Contacts</item>
-        <item>Add from Call History</item>
-        <item>Add from the message list</item>
-        <item>Manually add</item>
-    </string-array>
-    <string-array name="select_sim">
-        <item>From the SIM 1</item>
-        <item>From the SIM 1</item>
-    </string-array>
-    <string-array name="stopmsgtype_options">
-        <item>Smart block mode</item>
-        <item>block only blacklist</item>
-        <item>Receive only whitelist</item>
-        <item>Block all</item>
-        <item>Accept all</item>
-        <item>Only accept contacts</item>
-        <item>Custom mode</item>
-    </string-array>
-    <string-array name="endcalltype">
-        <item>Shutdown</item>
-        <item>Empty number</item>
-        <item>Shutdown</item>
-        <item>Hang up</item>
-    </string-array>
-    <string-array name="stopcalltype_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="trafficBillingDay">
-        <item>1st</item>
-        <item>2nd</item>
-        <item>3rd</item>
-        <item>4th</item>
-        <item>5th</item>
-        <item>6th</item>
-        <item>7th</item>
-        <item>8th</item>
-        <item>9th</item>
-        <item>10th</item>
-        <item>11th</item>
-        <item>12th</item>
-        <item>13th</item>
-        <item>14th</item>
-        <item>15th</item>
-        <item>16th</item>
-        <item>17th</item>
-        <item>18th</item>
-        <item>19th</item>
-        <item>20th</item>
-        <item>21st</item>
-        <item>22nd</item>
-        <item>23rd</item>
-        <item>24th</item>
-        <item>25th</item>
-        <item>26th</item>
-        <item>27th</item>
-        <item>28th</item>
-        <item>29th</item>
-        <item>30th</item>
-        <item>31st</item>
-    </string-array>
-    <string-array name="trafficBillingDay_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
-    </string-array>
-    <string-array name="msglog_oparete">
-        <item>Reply SMS</item>
-        <item>Call this number</item>
-        <item>Add to whitelist</item>
-        <item>Add to blacklist</item>
-        <item>Report</item>
-    </string-array>
-    <string-array name="calllog_oparete">
-        <item>Delete</item>
-        <item>Reply SMS</item>
-        <item>Call this number</item>
-        <item>Add to whitelist</item>
-        <item>Add to blacklist</item>
-        <item>Restored to the system call log</item>
-    </string-array>
-    <string-array name="preference_stopcalltype_options">
-        <item>Turn off night disturb mode</item>
-        <item>Block only blacklist</item>
-        <item>Receive only whitelist</item>
-        <item>Block all</item>
-        <item>Accept all</item>
-        <item>Receive only the white list and contacts</item>
-    </string-array>
-    <string-array name="preference_stopcalltype_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-    <string-array name="user_defined">
-        <item>WhiteList</item>
-        <item>Blacklist</item>
-        <item>Contact</item>
-        <item>Recently had contact numbers</item>
-        <item>Keyword</item>
-        <item>Intelligence block</item>
-    </string-array>
-    <string-array name="user_phone_defined">
-        <item>WhiteList</item>
-        <item>Blacklist</item>
-        <item>Contact</item>
-        <item>Recently had contact numbers</item>
-    </string-array>
-    <string-array name="select_allow">
-        <item>Receive</item>
-        <item>Ignore</item>
-    </string-array>
-    <string-array name="select_reject">
-        <item>Block</item>
-        <item>Ignore</item>
-    </string-array>
-    <string-array name="traffic_refresh">
-        <item>High</item>
-        <item>In</item>
-        <item>Low</item>
-    </string-array>
-    <string-array name="traffic_refresh_values">
-        <item>2000</item>
-        <item>3000</item>
-        <item>4000</item>
-    </string-array>
-    <string-array name="traffic_autodim">
-        <item>10 seconds</item>
-        <item>15 seconds</item>
-        <item>20 seconds</item>
-        <item>Always show</item>
-    </string-array>
-    <string-array name="traffic_autodim_values">
-        <item>10000</item>
-        <item>15000</item>
-        <item>20000</item>
-        <item>-1</item>
-    </string-array>
-    <string-array name="location_bg">
-        <item>Gorgeous</item>
-        <item>Refreshing</item>
-        <item>Concise</item>
-    </string-array>
-    <string-array name="location_bg_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="flowwindow_style">
-        <item>Standard</item>
-        <item>Fresh</item>
-    </string-array>
-    <string-array name="flowwindow_style_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="notify_hips_event">
-        <item>All requests prompted</item>
-        <item>Only prompts rejected requests</item>
-        <item>Any request without prompting</item>
-    </string-array>
-    <string-array name="notify_hips_event_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="record_telephony_event">
-        <item>Record all software</item>
-        <item>Record only untrusted software</item>
-    </string-array>
-    <string-array name="record_telephony_event_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="auto_ip_callist">
-        <item>Dialing numbers from other provinces</item>
-        <item>Call numbers outside the city</item>
-        <item>When all the numbers dialed</item>
-    </string-array>
-    <string-array name="auto_ip_callist_value">
-        <item>0</item>
-        <item>2</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="virus_antivirus_antilib">
-        <item>Virus|Category: virus</item>
-        <item>Worm|Category: Worm</item>
-        <item>Trojan|Category: Trojans</item>
-        <item>G-Ware|Category: G-Ware</item>
-        <item>AdWare|Category: AdWare</item>
-        <item>RiskWare|Category: RiskWare</item>
-        <item>Tool|Category: Tool</item>
-        <item>"prv|Privacy steal
-Reveal the user private information"</item>
-        <item>"rmt|Remote Control
-Remote Server Control via Mobile"</item>
-        <item>"pay|Malicious
-SP automatic subscription service resulting in chargeback"</item>
-        <item>"spr|spread malicious
-Proliferation of malicious code automatically"</item>
-        <item>"exp|Tariff consumption
+<string-array name="Pref_Main_Notification_Type"><item>Classic color</item><item>Material fashion style</item></string-array>
+<string-array name="Pref_Main_Notification_Value"><item>0</item><item>1</item></string-array>
+<string-array name="Root_Path"><item>baidu</item><item>netease</item><item>tencent</item><item>sina</item><item>.lbe</item><item>com.lbe.security</item><item>android</item><item>dcim</item><item>.android_secure</item><item>download</item><item>miui</item><item>movie</item><item>notifications</item><item>pictures</item><item>ringtones</item><item>.bluetooth</item><item>albumart</item><item>gameloft</item><item>lost.dir</item><item>my documents</item><item>media</item><item>downloaded_rom</item><item>music</item><item>picture</item><item>snda</item><item>video</item><item>sdfuse</item><item>mnt</item><item>audio</item><item>bluetooth</item><item>playlists</item><item>cache</item><item>books</item><item>document</item><item>openfeint</item><item>glu</item><item>record</item><item>.utsystemconfig</item><item>.thumbnails</item><item>msc</item><item>muzhiwan</item><item>.splanner_spenmemo</item><item>pictures/ideasketch</item><item>pictures/screenshots</item><item>samsung</item><item>dcim/.thumbnails</item></string-array>
+<string-array name="Root_Path_Des"><item>Baidu Application Cache</item><item>NetEase Application Cache</item><item>Tencent Application Cache</item><item>Sina Application Cache</item><item>LBE Privacy Space</item><item>LBE Security Master</item><item>Application data directory</item><item>Photographs store directory</item><item>App2sd move directory</item><item>Download the catalog</item><item>MIUI cache directory</item><item>Movie store directory</item><item>Notification sound storage directory</item><item>Image catalog</item><item>Custom ring tones store directory</item><item>Bluetooth cache directory</item><item>Music album cover</item><item>Playwright game data directory</item><item>Lost files temporary directory</item><item>My Documents</item><item>Media Documentation</item><item>MIUI Brush Pack directory</item><item>Music store directory</item><item>Image storage directory</item><item>Grand Application Cache</item><item>Video store directory</item><item>Lenovo ROM upgrade directory</item><item>Moving the application directory</item><item>Audio storage directory</item><item>Bluetooth cache directory</item><item>Playlist</item><item>Cache directory</item><item>Books store directory</item><item>Documents directory</item><item>OpenFeint gaming platform cache</item><item>Glu game data directory</item><item>Record store directory</item><item>Alibaba Application Cache</item><item>Thumbnail store directory</item><item>Camera temporary directory</item><item>Thumb playing application directory</item><item>S Planner graffiti backup</item><item>S Note creative sketch</item><item>Screenshot store</item><item>Samsung Data</item><item>Photos and video thumbnails</item></string-array>
+<string-array name="addblacktype"><item>Add from Contacts</item><item>Add from Call History</item><item>Add from the message list</item><item>Manually add</item><item>Added by group</item><item>Added by keyword</item></string-array>
+<string-array name="addnouseiptype"><item>Add from Contacts</item><item>Add from Call History</item><item>Add from the message list</item><item>Manually add</item></string-array>
+<string-array name="addwhitetype"><item>Add from Contacts</item><item>Add from Call History</item><item>Add from the message list</item><item>Manually add</item><item>Added by group</item></string-array>
+<string-array name="anti_adware_user_feedback_type"><item>Failed to block ads</item><item>The software is free of adware</item><item>Abnormal program after blocking ads</item><item>Unable to display the Close button on the banner</item></string-array>
+<string-array name="app_install_manage_mode_desc"><item>Allows automatic instal, prompt notification</item><item>Dialog box ask you to install</item><item>Lock screen allows instal, other require confirm</item><item>Disable automatic install</item></string-array>
+<string-array name="app_install_manage_mode_title"><item>Allow automatic installation</item><item>Ask automatically installed</item><item>Smart Tips to install</item><item>Disable the automatic installation</item></string-array>
+<string-array name="atp_function_des"><item>Lock your friends phone</item><item>Location your friends phone location</item><item>Backup your friends phone contacts</item><item>Destroy your friends phone contacts and other private data</item><item>Get the password forgot password</item><item>Make your friends playing at full volume alarm tone phone</item><item>Send custom messages to your friends mobile phones warning</item></string-array>
+<string-array name="atp_function_label"><item>Lock the phone</item><item>Mobile Location</item><item>Backup contacts</item><item>Destroy data</item><item>Get password</item><item>Ring alarm</item><item>Virtual warning</item></string-array>
+<string-array name="auto_ip_callist"><item>Dialing numbers from other provinces</item><item>Call numbers outside the city</item><item>When all the numbers dialed</item></string-array>
+<string-array name="auto_ip_callist_value"><item>0</item><item>2</item><item>1</item></string-array>
+<string-array name="auto_update_period"><item>Close</item><item>Every day</item><item>Every two days</item><item>Every three days</item><item>Every four days</item><item>Every five days</item><item>Every six days</item><item>Every seven days</item></string-array>
+<string-array name="auto_update_period_values"><item>0</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item></string-array>
+<array name="avl_extbtn_one_backgroud"><item>@drawable/avl_btn_rescan</item><item>@drawable/avl_btn_deepscan</item><item>@drawable/avl_btn_confim</item></array>
+<string-array name="avl_extbtn_one_listener"><item>com.example.freeavl.MainActivity</item><item>com.example.freeavl.MainActivity</item><item>com.example.freeavl.MainActivity</item></string-array>
+<string-array name="avl_extbtn_one_show"><item>true</item><item>true</item><item>true</item></string-array>
+<string-array name="avl_extbtn_one_text"><item>BTN1</item><item>BTN1</item><item>BTN1</item></string-array>
+<array name="avl_extview_title_backgroud"><item>@color/avl_green</item><item>@color/avl_risky_color</item><item>@color/avl_black_color</item></array>
+<string-array name="avl_extview_title_content"><item>@string/avl_is_safe</item><item>@string/avl_is_warning</item><item>@string/avl_is_malware</item></string-array>
+<array name="avl_extview_title_icon"><item>@drawable/avl_icon_safe</item><item>@drawable/avl_icon_risky</item><item>@drawable/avl_icon_malicious</item></array>
+<string-array name="battery_lock_time"><item>15 seconds</item><item>30 seconds</item><item>1 minute</item><item>2 minute</item><item>10 minute</item><item>30 minute</item></string-array>
+<string-array name="block_nodisturb_method"><item>Calls only</item><item>For calls and SMS</item></string-array>
+<string-array name="block_nodisturb_types"><item>Intelligent Interception</item><item>Receive only the white list and contact</item><item>Receive only whitelist</item><item>Only interception blacklist</item><item>All received</item><item>All interception</item></string-array>
+<string-array name="blocklog_save_time"><item>One week</item><item>Month</item><item>Save permanently</item></string-array>
+<string-array name="blocklog_save_time_values"><item>0</item><item>1</item><item>2</item></string-array>
+<string-array name="calibration_period"><item>Manual correction</item><item>Every day</item><item>Every three days</item><item>Weekly</item></string-array>
+<string-array name="calibration_period_values"><item>0</item><item>1</item><item>2</item><item>3</item></string-array>
+<string-array name="calllog_operate"><item>Delete</item><item>Reply SMS</item><item>Call this number</item><item>Add to whitelist</item><item>Add to blacklist</item><item>Restored to the system call log</item></string-array>
+<string-array name="desktop_home_launch_mode"><item>Click the Home button</item><item>Double-click the Home button</item></string-array>
+<string-array name="document_type_files"><item>txt</item><item>doc</item><item>docx</item><item>pdf</item><item>ppt</item><item>chm</item><item>umd</item><item>pdb</item><item>ebk2</item><item>epub</item><item>ebk</item><item>ndz</item><item>ndb1</item><item>ics</item><item>icz</item><item>csv</item><item>css</item><item>htm</item><item>html</item><item>323</item><item>uls</item><item>mml</item><item>asc</item><item>text</item><item>diff</item><item>po</item><item>rtx</item><item>rtf</item><item>ts</item><item>phps</item><item>tsv</item><item>xml</item><item>bib</item><item>boo</item><item>h++</item><item>hpp</item><item>hxx</item><item>hh</item><item>c++</item><item>cpp</item><item>cxx</item><item>h</item><item>htc</item><item>csh</item><item>c</item><item>d</item><item>hs</item><item>java</item><item>lhs</item><item>moc</item><item>p</item><item>pas</item><item>gcd</item><item>etx</item><item>tcl</item><item>tex</item><item>ltx</item><item>sty</item><item>cls</item><item>vcs</item><item>vcf</item></string-array>
+<string-array name="empty_subject_strings"><item>No subject</item></string-array>
+<string-array name="endcalltype"><item>Off</item><item>Empty number</item><item>Shutdown</item><item>Hang up</item></string-array>
+<string-array name="endcalltype_values"><item>0</item><item>1</item><item>2</item><item>3</item><item>4</item></string-array>
+<string-array name="float_window_dispaly_type"><item>Only in the desktop display</item><item>All interface displays</item><item>Is not displayed</item></string-array>
+<string-array name="float_window_dispaly_type_values"><item>0</item><item>1</item><item>2</item></string-array>
+<string-array name="flowwindow_style"><item>Standard</item><item>Fresh</item><item>Transparent white</item><item>Transparent black</item></string-array>
+<string-array name="flowwindow_style_values"><item>0</item><item>1</item><item>2</item><item>3</item></string-array>
+<string-array name="hardware_antutu_keys"><item>Main camera</item><item>Front camera</item><item>Screen Size</item><item>Material</item><item>CPU Model</item><item>GPU renderer</item><item>GPU vendor</item></string-array>
+<string-array name="hardware_basic_info"><item>1 Brand</item><item>2 Model</item><item>3 Android version</item><item>4 main camera</item><item>5 front camera</item><item>6 IMEI</item><item>7 RAM</item><item>8 CPU</item><item>9 SD Memory</item><item>10 Weight</item></string-array>
+<string-array name="hardware_cpu_info"><item>1 CPU Model</item><item>2 Cores</item><item>3 Frequency</item></string-array>
+<string-array name="hardware_network_info"><item>1 Standard network</item><item>2 WIFI support information</item><item>3 GPS support information</item><item>4 Bluetooth support information</item></string-array>
+<string-array name="hardware_rank"><item>Model ranking</item><item>Models percentage</item></string-array>
+<string-array name="hardware_screen_info"><item>1 GPU renderer</item><item>2 GPU supplier</item><item>3 GPU version</item><item>4 Resolution</item><item>5 Screen Size</item><item>6 Material</item><item>7 Pixel density</item><item>8 Multi-touch</item></string-array>
+<string-array name="hardware_sensor_name"><item>Acceleration sensor</item><item>Magnetic field sensor</item><item>Orientation Sensor</item><item>Gyro Sensor</item><item>Light sensor</item><item>Pressure Sensor</item><item>Temperature Sensor</item><item>Proximity sensor</item><item>Gravity Sensor</item><item>Linear Acceleration Sensor</item><item>Rotation vector sensor</item><item>Relative humidity sensor</item><item>Temperature sensor</item></string-array>
+<string-array name="hips_batch_operation"><item>Allow all</item><item>Tips all</item><item>Reject all</item></string-array>
+<string-array name="hipsapk_sortypes"><item>Sort by Name</item><item>Sort by Number of permissions</item><item>Sort by Time</item></string-array>
+<string-array name="hipsapk_types"><item>Monitored Software</item><item>Trust Software</item></string-array>
+<string-array name="home_about_labels"><item>Message Center</item><item>Check for update</item><item>Help</item><item>Rate LBE</item><item>Share LBE</item><item>About LBE</item></string-array>
+<string-array name="home_more_options"><item>Notification Manager</item><item>Privacy Space</item><item>SMS bodyguard</item><item>Mobile security</item><item>Communication Tools</item></string-array>
+<string-array name="location_bg"><item>High</item><item>Middle</item><item>Simple</item></string-array>
+<string-array name="location_bg_values"><item>0</item><item>1</item><item>2</item></string-array>
+<string-array name="market_report_options"><item>Malicious chargeback</item><item>Copyright infringement</item><item>Containing pornography, violence, or objectionable content</item><item>Application description does not match with the actual</item><item>Older version</item><item>Cant download</item><item>Cant be installed or not working correctly</item></string-array>
+<string-array name="miss_alert_time"><item>Every 5 minutes</item><item>Every 10 minutes</item><item>Every 20 minutes</item></string-array>
+<string-array name="miss_alert_time_value"><item>5</item><item>10</item><item>20</item></string-array>
+<string-array name="misscalltype"><item>Ringtones and vibration</item><item>Ringtones</item><item>Vibrate</item></string-array>
+<string-array name="misscalltype_value"><item>0</item><item>1</item><item>2</item></string-array>
+<string-array name="msglog_operate"><item>Delete</item><item>Reply SMS</item><item>Call this number</item><item>Add to whitelist</item><item>Add to blacklist</item><item>Report</item></string-array>
+<string-array name="music_type_files"><item>mp3</item><item>wmv</item><item>wma</item><item>acc</item><item>amr</item><item>snd</item><item>mid</item><item>midi</item><item>kar</item><item>xmf</item><item>mxmf</item><item>mpga</item><item>mpega</item><item>mp2</item><item>m4a</item><item>m3u</item><item>sid</item><item>ape</item><item>aif</item><item>aiff</item><item>aifc</item><item>gsm</item><item>m3u</item><item>wax</item><item>ra</item><item>ram</item><item>pls</item><item>sd2</item><item>wav</item><item>flac</item><item>ape</item><item>plays</item><item>alac</item><item>ogg</item><item>wav</item><item>wv</item><item>tta</item><item>mpc</item></string-array>
+<string-array name="notify_hips_event"><item>All requests prompted</item><item>Only prompts rejected requests</item><item>Any request without prompting</item></string-array>
+<string-array name="notify_hips_event_values"><item>0</item><item>1</item><item>2</item></string-array>
+<string-array name="other_type_files"><item>zip</item><item>7z</item><item>rar</item><item>gz</item><item>gzip</item><item>tar</item></string-array>
+<string-array name="phone_block_type"><item>Call and SMS</item><item>Call</item><item>SMS</item></string-array>
+<string-array name="phone_marker_operator"><item>Transfer to other classifications</item><item>Deleted from the classification</item><item>Add to blacklist</item></string-array>
+<string-array name="private_call_operator"><item>Dial</item><item>Texting</item><item>Delete</item><item>Restored to the phone</item></string-array>
+<string-array name="private_contact_operator"><item>Call</item><item>Texting</item><item>Edit</item><item>Delete</item></string-array>
+<string-array name="private_message_dialog_operator"><item>Delete this message</item><item>Restored to the phone</item><item>Make Copy</item><item>Forwarding</item></string-array>
+<string-array name="private_message_operator"><item>Call a contact</item><item>Remove this session</item><item>Restored to the phone</item></string-array>
+<string-array name="questions"><item>My best friend</item><item>My favorite people</item><item>My father birthday</item><item>My mother birthday</item><item>My wife name/birthday</item><item>I Primary/Secondary/University School Name</item><item>My favorite novel</item><item>My favorite movie</item><item>My favorite anime</item><item>My favorite sport</item><item>My favorite star</item><item>My favorite singer</item></string-array>
+<string-array name="record_telephony_event"><item>Record all software</item><item>Record only untrusted software</item></string-array>
+<string-array name="record_telephony_event_values"><item>0</item><item>1</item></string-array>
+<string-array name="sdapk_sortypes"><item>Sort by Name</item><item>Sort by Size</item><item>Sort by Time</item></string-array>
+<string-array name="sdapk_status"><item>Your SD card does not exist any packages</item><item>Your SD card is not upgradable packages exist</item><item>Your SD card is not old version package exists</item><item>Your SD card is not already installed package exists</item><item>Your SD card is not installed package does not exist</item><item>Your SD card is no certification exceptions exist packages</item><item>Your SD card is no duplicate packages exist</item></string-array>
+<string-array name="sdapk_types"><item>All Packages</item><item>New Version Package</item><item>Old versions of packages</item><item>Installed packages</item><item>Not Installed Packages</item><item>Certification exception Packages</item><item>Repeat the installation package</item></string-array>
+<string-array name="sdclean_skip_path"><item>/dcim</item><item>/android</item><item>/tencent</item><item>/sina/weibo</item><item>/yixin</item><item>/iaround</item><item>/ganji</item><item>/immomo</item><item>/zaker</item><item>/news</item><item>/qiyivideop2p</item><item>/tieba</item><item>/myxj</item><item>/renren</item><item>/weimi</item><item>/qqmusic</item><item>/viva2</item><item>/.sohunewscache</item><item>/baidu</item><item>/qvod</item><item>/pptv</item><item>/baofeng</item><item>/kgmusic/download</item><item>/kugou</item></string-array>
+<string-array name="sdclean_special_path"><item>/wandoujia/app/</item><item>/91 WireLess/PandaSpace/apps/</item><item>/baidu/AppSearch/downloads/</item><item>/tencent/tassistant/apk/</item><item>/anzhi/download/</item><item>/AppGame/GOMarket/GoStore/download/</item><item>/360Download/</item><item>/360Browser/download/</item><item>/QQBrowser/&#23433;&#35013;&#21253;/</item><item>/baidu/flyflow/downloads/</item><item>/kbrowser/download/app/</item><item>/NearMeMarket/application/</item><item>/sogouappmall/downloads/</item><item>/ucappstore/apk/</item><item>/hiapk_market/app/download/</item><item>/baoruan_download/shangcheng/software/</item><item>/digua/downs/</item><item>/hispace/application/</item><item>/gfan/market/</item><item>/.LeStore/download/</item><item>/skymarket/com.skymobi.appstore/download/</item><item>/MzwDownloads/</item><item>/mumayi/download/</item><item>/crossmo_app/apk/</item><item>/appcenter/app/</item><item>/Yingyonghui/apk/</item><item>/download/</item><item>/downloadapp/</item><item>/moji/mojidownload/</item><item>/ttpod/app/</item><item>/ZTEMarket/download/</item></string-array>
+<string-array name="sdclean_white_file_apk"><item>.apk</item></string-array>
+<string-array name="sdclean_white_file_audio"><item>.mp3</item><item>.m4a</item><item>.wav</item><item>.flac</item><item>.ogg</item><item>.mid</item><item>.ape</item><item>.asf</item><item>.wma</item><item>.aac</item><item>.aiff</item></string-array>
+<string-array name="sdclean_white_file_doc"><item>.txt</item><item>.doc</item><item>.ppt</item><item>.pdf</item><item>.chm</item><item>.umd</item><item>.epub</item><item>.mobi</item><item>.torrent</item></string-array>
+<string-array name="sdclean_white_file_obb"><item>.obb</item></string-array>
+<string-array name="sdclean_white_file_picture"><item>.jpg</item><item>.jpeg</item><item>.gif</item><item>.png</item><item>.bmp</item><item>.wbmp</item></string-array>
+<string-array name="sdclean_white_file_type"><item>Audio</item><item>Video</item><item>Picture</item><item>File</item><item>Archive</item><item>Package</item><item>Game data</item></string-array>
+<string-array name="sdclean_white_file_type_summary"><item>.mp3/.m4a/.wav/.flac/.ogg/.mid/.ape/.asf/.wma/.aac/.aiff</item><item>.avi/.flv/.mp4/.wmv/.mpeg/.3gp/.rm/.rmvb/.qvb/.mov/.mkv/.f4v/.swf/.bhd/.ifox/.qsv/.xm/.qsk</item><item>.jpg/.jpeg/.gif/.png/.bmp/.wbmp</item><item>.txt/.doc/.ppt/.pdf/.chm/.umd/.epub/.mobi/.torrent</item><item>.zip/.rar/.7z/.tar/.iso/.gz</item><item>.apk</item><item>.obb</item></string-array>
+<string-array name="sdclean_white_file_type_value"><item>sdclean_white_file_audio</item><item>sdclean_white_file_video</item><item>sdclean_white_file_picture</item><item>sdclean_white_file_doc</item><item>sdclean_white_file_zip</item><item>sdclean_white_file_apk</item><item>sdclean_white_file_obb</item></string-array>
+<string-array name="sdclean_white_file_video"><item>.avi</item><item>.flv</item><item>.mp4</item><item>.wmv</item><item>.mpeg</item><item>.3gp</item><item>.rm</item><item>.rmvb</item><item>.qvb</item><item>.mov</item><item>.mkv</item><item>.f4v</item><item>.swf</item><item>.bhd</item><item>.ifox</item><item>.qsv</item><item>.xm</item><item>.qsk</item></string-array>
+<string-array name="sdclean_white_file_zip"><item>.zip</item><item>.rar</item><item>.7z</item><item>.tar</item><item>.iso</item><item>.gz</item></string-array>
+<string-array name="softmgr_autoblock_apps_catrgories"><item>User Apps</item><item>System Apps</item></string-array>
+<string-array name="softmgr_autoblock_apps_catrgories_values"><item>0</item><item>1</item></string-array>
+<string-array name="special_thanks_list"><item>VuHien (Mr Mobile) from XDA-developers</item><item>Mr Mobile (VuHien) from tinhte</item><item>xda_drm vs p.chi vs ShironLive vs Hen Ry from XDA-developers</item><item>&#20853;&#37096;&#23578;&#20070;</item><item>&#22047;&#22047;&#20262;&#29233;&#26480;</item><item>zgcwkj vs lemonCC</item><item>&#20320;&#27604;&#33487;&#33778;&#26356;&#37325;&#35201;</item><item>&#34166;&#20098;&#24598;&#36695;</item><item>&#24069;&#24471;&#34987;&#20154;&#30733;&#20108;&#21495;</item><item>&#24917;&#23481;&#29436;&#21531;</item><item>ai&#36807;&#20043;&#21518;&#33401;</item><item>&#22075;&#22075;&#21704;&#21704;&#27809;&#27491;&#32463;</item><item>~~HIEN VU VAN~~</item></string-array>
+<string-array name="task_sortypes"><item>Sort by Name/Type</item><item>Sort by Memory consumption</item><item>Sort by CPU usage</item></string-array>
+<string-array name="toggles_add_options"><item>Quick switch</item><item>Applications</item><item>LBE functional items</item></string-array>
+<string-array name="trafficBillingDay"><item>1st</item><item>2nd</item><item>3rd</item><item>4th</item><item>5th</item><item>6th</item><item>7th</item><item>8th</item><item>9th</item><item>10th</item><item>11th</item><item>12th</item><item>13th</item><item>14th</item><item>15th</item><item>16th</item><item>17th</item><item>18th</item><item>19th</item><item>20th</item><item>21st</item><item>22nd</item><item>23rd</item><item>24th</item><item>25th</item><item>26th</item><item>27th</item><item>28th</item><item>29th</item><item>30th</item><item>31st</item></string-array>
+<string-array name="trafficBillingDay_values"><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>31</item></string-array>
+<string-array name="traffic_autodim"><item>10 seconds</item><item>15 seconds</item><item>20 seconds</item><item>Always show</item></string-array>
+<string-array name="traffic_autodim_values"><item>10000</item><item>15000</item><item>20000</item><item>-1</item></string-array>
+<string-array name="traffic_refresh"><item>High</item><item>Middle</item><item>Low</item></string-array>
+<string-array name="traffic_refresh_values"><item>2000</item><item>3000</item><item>4000</item></string-array>
+<string-array name="unlock_types"><item>Graphics Unlocking</item><item>Password to unlock</item></string-array>
+<string-array name="user_defined"><item>Blacklist calls and SMS</item><item>Whitelist calls and SMS</item><item>Contacts calls and SMS</item><item>The last number of calls and SMS</item><item>SMS Keyword</item><item>Cloud spam SMS</item><item>Other calls and SMS</item><item>All incoming calls and SMS</item></string-array>
+<string-array name="video_type_files"><item>mp4</item><item>3gp</item><item>rmvb</item><item>rm</item><item>avi</item><item>flv</item><item>flash</item><item>swf</item><item>3gpp</item><item>3g2</item><item>dl</item><item>dif</item><item>dv</item><item>fli</item><item>m4v</item><item>mpeg</item><item>mpg</item><item>mpe</item><item>vob</item><item>qt</item><item>mov</item><item>mxu</item><item>lsf</item><item>lsx</item><item>mng</item><item>asf</item><item>asx</item><item>wm</item><item>movie</item></string-array>
+<string-array name="virus_antivirus_antilib"><item>Virus|Category: virus</item><item>Worm|Category: Worm</item><item>Trojan|Category: Trojans</item><item>G-Ware|Category: G-Ware</item><item>AdWare|Category: AdWare</item><item>RiskWare|Category: RiskWare</item><item>Tool|Category: Tool</item><item>"prv|Privacy steal
+Reveal the user private information"</item><item>"rmt|Remote Control
+Remote Server Control via Mobile"</item><item>"pay|Malicious
+SP automatic subscription service resulting in chargeback"</item><item>"spr|spread malicious
+Proliferation of malicious code automatically"</item><item>"exp|Tariff consumption
 Automatic frequent networking or SMS
-Consumption rates resulting"</item>
-        <item>"sys|System Damage
+Consumption rates resulting"</item><item>"sys|System Damage
 Some damage to the system
 Affect system stability
-Reduce system security"</item>
-        <item>"fra|decoy fraud
+Reduce system security"</item><item>"fra|decoy fraud
 Fake SMS
-Block SMS"</item>
-        <item>"rog|hooliganism
+Block SMS"</item><item>"rog|hooliganism
 Malicious occupy system resources
-Pop-up ads and other hooliganism"</item>
-        <item>sms|SMS malicious behavior in behavior</item>
-        <item>spy|spyware malicious behavior in class act</item>
-        <item>bkd|contains backdoor malicious acts</item>
-        <item>rtt|malicious acts contain mention the right to act</item>
-        <item>"gen|By heuristic rules and broad-spectrum detection
-There may be false positives"</item>
-        <item>ads|contain adware</item>
-        <item>default|unknown threats</item>
-    </string-array>
-    <string-array name="traffic_cell_type">
-        <item>Sort by monthly flow</item>
-        <item>"Sort by today's traffic"</item>
-        <item>Sort by software name</item>
-    </string-array>
-    <string-array name="calibration_period">
-        <item>Every three days</item>
-        <item>Weekly</item>
-        <item>Every day</item>
-        <item>Manual Calibration</item>
-    </string-array>
-    <string-array name="showpowerquantitylower">
-        <item>10%</item>
-        <item>20%</item>
-        <item>30%</item>
-        <item>40%</item>
-        <item>50%</item>
-    </string-array>
-    <string-array name="auto_update_period">
-        <item>Close</item>
-        <item>Every one day</item>
-        <item>Every two days</item>
-        <item>Every three days</item>
-        <item>Every four days</item>
-        <item>Every five days</item>
-        <item>Every six days</item>
-        <item>Every seven days</item>
-    </string-array>
-    <string-array name="auto_update_period_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </string-array>
-    <string-array name="hips_batch_operation">
-        <item>Allow all</item>
-        <item>All Tips</item>
-        <item>Reject All</item>
-    </string-array>
-    <string-array name="hips_batch_operation_ar">
-        <item>Allow all</item>
-        <item>Reject All</item>
-    </string-array>
-    <string-array name="defaultfilesuffix">
-        <item>epub</item>
-        <item>chm</item>
-        <item>ndk</item>
-        <item>umd</item>
-        <item>pdf</item>
-    </string-array>
-    <string-array name="filesuffix">
-        <item>avi</item>
-        <item>wmv</item>
-        <item>flv</item>
-        <item>mov</item>
-        <item>3gp</item>
-        <item>mp4</item>
-        <item>mpg</item>
-        <item>rmvb</item>
-        <item>mp3</item>
-        <item>wav</item>
-        <item>wma</item>
-        <item>mid</item>
-        <item>flac</item>
-        <item>lrc</item>
-        <item>m4a</item>
-        <item>krc</item>
-        <item>apk</item>
-        <item>f4v</item>
-        <item>dat</item>
-        <item>tsk</item>
-        <item>db3</item>
-    </string-array>
-    <integer-array name="filesuffix_id">
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>8</item>
-        <item>16</item>
-        <item>32</item>
-        <item>64</item>
-        <item>128</item>
-        <item>256</item>
-        <item>512</item>
-        <item>1024</item>
-        <item>2048</item>
-        <item>4096</item>
-        <item>8192</item>
-        <item>16384</item>
-        <item>32768</item>
-        <item>65536</item>
-        <item>131072</item>
-        <item>262144</item>
-        <item>524288</item>
-        <item>1048576</item>
-    </integer-array>
-    <string-array name="misscalltype">
-        <item>Ringtones and vibration</item>
-        <item>Ring</item>
-        <item>Vibration</item>
-    </string-array>
-    <string-array name="misscalltype_value">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="miss_alert_time">
-        <item>Every 5 minutes</item>
-        <item>Every 10 minutes</item>
-        <item>Every 20 minutes</item>
-    </string-array>
-    <string-array name="miss_alert_time_value">
-        <item>5</item>
-        <item>10</item>
-        <item>20</item>
-    </string-array>
-    <string-array name="desktop_home_launch_mode">
-        <item>Click the Home button</item>
-        <item>Double-click the Home button</item>
-    </string-array>
-    <string-array name="lbe_shortcut_start_mode">
-        <item>Notice to enter the main</item>
-        <item>Desktop shortcut</item>
-    </string-array>
-    <string-array name="blocklog_save_time">
-        <item>One week</item>
-        <item>One Month</item>
-        <item>Permanent preservation</item>
-    </string-array>
-    <string-array name="blocklog_save_time_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="phone_marker_operator">
-        <item>Transfer to other classifications</item>
-        <item>Deleted from the classification</item>
-        <item>Add to blacklist</item>
-    </string-array>
-    <string-array name="private_contact_operator">
-        <item>Call</item>
-        <item>Texting</item>
-        <item>Edit</item>
-        <item>Delete</item>
-    </string-array>
-    <string-array name="private_call_operator">
-        <item>Dial</item>
-        <item>Texting</item>
-        <item>Delete</item>
-        <item>Restored to the phone</item>
-    </string-array>
-    <string-array name="private_message_operator">
-        <item>Call a contact</item>
-        <item>Remove this session</item>
-        <item>Restored to the phone</item>
-    </string-array>
-    <string-array name="private_message_dialog_operator">
-        <item>Delete this message</item>
-        <item>Restored to the phone</item>
-        <item>Make Copy</item>
-        <item>Forwarding</item>
-    </string-array>
-    <string-array name="phone_block_type">
-        <item>Call and SMS</item>
-        <item>Call</item>
-        <item>SMS</item>
-    </string-array>
-    <string-array name="battery_scene_killtask_interval_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
-    <string-array name="anti_adware_user_feedback_type">
-        <item>Block ads fail</item>
-        <item>The software is free of adware</item>
-        <item>After the program exception block ads</item>
-        <item>Can not be displayed on the Close button banner</item>
-        <item>Cancel</item>
-    </string-array>
-    <string-array name="desktop_float_toggles_labels">
-        <item>Flight mode</item>
-        <item>Bluetooth</item>
-        <item>Screen brightness</item>
-        <item>Touch</item>
-        <item>Synchronous</item>
-        <item>WIFI</item>
-        <item>GPS</item>
-        <item>Mobile network</item>
-        <item>Screen Rotation</item>
-    </string-array>
-    <string-array name="homepage_more_options_labels">
-        <item>Antivirus</item>
-        <item>Active defense</item>
-        <item>Notification bar</item>
-        <item>Privacy Space</item>
-        <item>Call blocking</item>
-        <item>Antitheft</item>
-        <item>Communication</item>
-        <item>Backup restore</item>
-    </string-array>
-    <string-array name="home_settings_labels">
-        <item>Desktop Shortcut</item>
-        <item>Add shortcut to the desktop Oneclick clean-up</item>
-        <item>Oneclick clean white list</item>
-        <item>Password Protection</item>
-        <item>System Settings</item>
-    </string-array>
-    <string-array name="home_about_labels_6900">
-        <item>Software Updates</item>
-        <item>Feedback</item>
-        <item>Software rate</item>
-        <item>Share with friends</item>
-        <item>Join with us</item>
-        <item>Special thanks</item>
-    </string-array>
-    <string-array name="home_about_labels_7301">
-        <item>Report Problem</item> 
-        <item>Help (Chinese)</item> 
-        <item>Software Updates</item> 
-        <item>Software settings</item> 
-        <item>LBE Home</item> 
-        <item>Share with friends</item> 
-        <item>About LBE security master</item>
-    </string-array>
-
-    <string-array name="home_about_labels">
-        <item>Software Settings </item> 
-        <item>Message Center </item> 
-        <item>Software Update </item> 
-        <item>Help (Chinese)</item> 
-        <item>Feedback</item> 
-        <item>Praise to the Masters</item> 
-        <item>And friends to share master</item> 
-        <item>About LBE security master</item> 
-    </string-array> 
-    
-    <string-array name="sdapk_sortypes">
-        <item>Sort by Name</item>
-        <item>Sort by size</item>
-        <item>Sort by time</item>
-    </string-array>
-    <string-array name="sdapk_types">
-        <item>All Packages</item>
-        <item>New Version Package</item>
-        <item>Old versions of packages</item>
-        <item>Installed packages</item>
-        <item>Not Installed Packages</item>
-        <item>Certification exception Packages</item>
-        <item>Repeat the installation package</item>
-    </string-array>
-    <string-array name="sdapk_status">
-        <item>Your SD card does not exist any packages</item>
-        <item>Your SD card is not upgradable packages exist</item>
-        <item>Your SD card is not old version package exists</item>
-        <item>Your SD card is not already installed package exists</item>
-        <item>Your SD card is not installed package does not exist</item>
-        <item>Your SD card is no certification exceptions exist packages</item>
-        <item>Your SD card is no duplicate packages exist</item>
-    </string-array>
-    <string-array name="task_sortypes">
-        <item>Sort by name/type</item>
-        <item>Sort by memory consumption</item>
-        <item>Sort by CPU usage</item>
-    </string-array>
-    <string-array name="hipsapk_sortypes">
-        <item>Sort by Name</item>
-        <item>Sort by the number of permissions</item>
-        <item>Sort by time</item>
-    </string-array>
-    <string-array name="hipsapk_types">
-        <item>Monitored Software</item>
-        <item>Trust Software</item>
-    </string-array>
-    <string-array name="scan_item_type">
-        <item>Automatic entry</item>
-        <item>Manual entry</item>
-        <item>Security</item>
-    </string-array>
-    <string-array name="toggles_add_options">
-        <item>Quick switch</item>
-        <item>Applications</item>
-        <item>LBE functional items</item>
-    </string-array>
-    <string-array name="questions">
-        <item>My best friend</item>
-        <item>My favorite people</item>
-        <item>"My father's birthday"</item>
-        <item>"My mother's birthday"</item>
-        <item>"My wife's name/birthday"</item>
-        <item>I Primary/Secondary/University School Name</item>
-        <item>My favorite novel</item>
-        <item>My favorite movie</item>
-        <item>My favorite anime</item>
-        <item>My favorite sport</item>
-        <item>My favorite star</item>
-        <item>My favorite singer</item>
-    </string-array>
-    <string-array name="unlock_types">
-        <item>Graphics Unlocking</item>
-        <item>Password to unlock</item>
-    </string-array>
-    <string-array name="traffic_mobile_graph_wave_colors">
-        <item>\#605fcaff</item>
-        <item>\#8026acee</item>
-    </string-array>
-    <string-array name="traffic_mobile_graph_warn_colors">
-        <item>\#70fe7e71</item>
-        <item>\#80db2c1b</item>
-    </string-array>
-    <string-array name="hardware_basic_info">
-        <item>1 brand</item>
-        <item>2 Model</item>
-        <item>3 Android version</item>
-        <item>4 main camera</item>
-        <item>5 front camera</item>
-        <item>6 IMEI</item>
-        <item>7 RAM</item>
-        <item>8 CPU</item>
-        <item>9 SD Memory</item>
-        <item>10 weight</item>
-    </string-array>
-    <string-array name="hardware_cpu_info">
-        <item>1 CPU Model</item>
-        <item>2 cores</item>
-        <item>3 Frequency</item>
-    </string-array>
-    <string-array name="hardware_screen_info">
-        <item>1 GPU renderer</item>
-        <item>2 GPU supplier</item>
-        <item>3 GPU version</item>
-        <item>4 Resolution</item>
-        <item>5 Screen Size</item>
-        <item>6 Material</item>
-        <item>7 pixel density</item>
-        <item>8 Multi-touch</item>
-    </string-array>
-    <string-array name="hardware_network_info">
-        <item>1 Standard network</item>
-        <item>2 WIFI support information</item>
-        <item>3 GPS support information</item>
-        <item>4 Bluetooth support information</item>
-    </string-array>
-    <string-array name="hardware_sensor_name">
-        <item>Acceleration sensor</item>
-        <item>Magnetic field sensor</item>
-        <item>Orientation Sensor</item>
-        <item>Gyro Sensor</item>
-        <item>Light sensor</item>
-        <item>Pressure Sensor</item>
-        <item>Temperature Sensor</item>
-        <item>Proximity sensor</item>
-        <item>Gravity Sensor</item>
-        <item>Linear Acceleration Sensor</item>
-        <item>Rotation vector sensor</item>
-        <item>Relative humidity sensor</item>
-        <item>Temperature sensor</item>
-    </string-array>
-    <string-array name="hardware_rank">
-        <item>Model ranking</item>
-        <item>Models percentage</item>
-    </string-array>
-    <string-array name="hardware_antutu_keys">
-        <item>Main camera</item>
-        <item>Front camera</item>
-        <item>Screen Size</item>
-        <item>Material</item>
-    </string-array>
-    <string-array name="app_install_manage_mode_title">
-        <item>Allow automatic installation</item>
-        <item>Ask automatically installed</item>
-        <item>Smart Installation</item>
-        <item>Disable the automatic installation</item>
-    </string-array>
-    <string-array name="app_install_manage_mode_desc">
-        <item>Allows automatic installation software, prompt notification bar after installation</item>
-        <item>There dialog box prompts to install, requires you to manually confirm</item>
-        <item>Smart Filter (From Data cloud by other user online)</item>
-        <item>Completely disable the automatic installation of software behavior</item>
-    </string-array>
-    <string-array name="yellow_correction_no_num">
-        <item>Modify Mechant Data</item>
-        <item>Add or Modify the Number</item>
-        <item>Other Problems</item>
-    </string-array>
-    <string-array name="yellow_correction_has_num">
-        <item>Merchant Name incorrect</item>
-        <item>Correct Businessdata</item>
-        <item>Private Number</item>
-    </string-array>
-    <string-array name="special_thanks_list">
-        <item>xda_drm from xda-developers</item>
-        <item>vuhien from xda-developers</item>
-        <item>LemonCC vs Tamina</item>
-        <item>影殇1 vs 魏傲06</item>
-        <item>GTRZ</item>
-        <item>留不住</item>
-        <item>兵部尚书</item>
-        <item>断线的鸭子</item>
-        <item>℡秋殇づ落葉ず</item>
-    </string-array>
-    <string-array name="atp_function_label">
-        <item>lock the phone</item>
-        <item>mobile positioning</item>
-        <item>backup contacts</item>
-        <item>destroy data</item>
-        <item>obtain a password</item>
-        <item>rang alarm tone</item>
-        <item>virtual Warning</item>
-    </string-array>
-    <string-array name="atp_function_des">
-        <item>lock your friends phone</item>
-        <item>locate your friends phone location</item>
-        <item>backup your friends phone contacts</item>
-        <item>destroy your friends phone contacts and other private data</item>
-        <item>Forgot your password after password get</item>
-        <item>make your friends playing at full volume alarm tone phone</item>
-        <item>occurred custom warning messages to your friends mobile phone</item>
-    </string-array>
-    <string-array name="empty_subject_strings">
-        <item>no subject</item>
-    </string-array>
-    <string-array name="music_type_files">
-        <item>mp3</item>
-        <item>wmv</item>
-        <item>wma</item>
-        <item>acc</item>
-        <item>amr</item>
-        <item>snd</item>
-        <item>mid</item>
-        <item>midi</item>
-        <item>kar</item>
-        <item>xmf</item>
-        <item>mxmf</item>
-        <item>mpga</item>
-        <item>mpega</item>
-        <item>mp2</item>
-        <item>m4a</item>
-        <item>m3u</item>
-        <item>sid</item>
-        <item>ape</item>
-        <item>aif</item>
-        <item>aiff</item>
-        <item>aifc</item>
-        <item>gsm</item>
-        <item>m3u</item>
-        <item>wax</item>
-        <item>ra</item>
-        <item>ram</item>
-        <item>pls</item>
-        <item>sd2</item>
-        <item>wav</item>
-        <item>flac</item>
-        <item>ape</item>
-        <item>plays</item>
-        <item>alac</item>
-        <item>ogg</item>
-        <item>wav</item>
-        <item>wv</item>
-        <item>tta</item>
-        <item>mpc</item>
-    </string-array>
-    <string-array name="video_type_files">
-        <item>mp4</item>
-        <item>3gp</item>
-        <item>rmvb</item>
-        <item>rm</item>
-        <item>avi</item>
-        <item>flv</item>
-        <item>flash</item>
-        <item>swf</item>
-        <item>3gpp</item>
-        <item>3g2</item>
-        <item>dl</item>
-        <item>dif</item>
-        <item>dv</item>
-        <item>fli</item>
-        <item>m4v</item>
-        <item>mpeg</item>
-        <item>mpg</item>
-        <item>mpe</item>
-        <item>vob</item>
-        <item>qt</item>
-        <item>mov</item>
-        <item>mxu</item>
-        <item>lsf</item>
-        <item>lsx</item>
-        <item>mng</item>
-        <item>asf</item>
-        <item>asx</item>
-        <item>wm</item>
-        <item>movie</item>
-    </string-array>
-    <string-array name="document_type_files">
-        <item>txt</item>
-        <item>doc</item>
-        <item>docx</item>
-        <item>pdf</item>
-        <item>ppt</item>
-        <item>chm</item>
-        <item>umd</item>
-        <item>pdb</item>
-        <item>ebk2</item>
-        <item>epub</item>
-        <item>ebk</item>
-        <item>ndz</item>
-        <item>ndb1</item>
-        <item>ics</item>
-        <item>icz</item>
-        <item>csv</item>
-        <item>css</item>
-        <item>htm</item>
-        <item>html</item>
-        <item>323</item>
-        <item>uls</item>
-        <item>mml</item>
-        <item>asc</item>
-        <item>text</item>
-        <item>diff</item>
-        <item>po</item>
-        <item>rtx</item>
-        <item>rtf</item>
-        <item>ts</item>
-        <item>phps</item>
-        <item>tsv</item>
-        <item>xml</item>
-        <item>bib</item>
-        <item>boo</item>
-        <item>h++</item>
-        <item>hpp</item>
-        <item>hxx</item>
-        <item>hh</item>
-        <item>c++</item>
-        <item>cpp</item>
-        <item>cxx</item>
-        <item>h</item>
-        <item>htc</item>
-        <item>csh</item>
-        <item>c</item>
-        <item>d</item>
-        <item>hs</item>
-        <item>java</item>
-        <item>lhs</item>
-        <item>moc</item>
-        <item>p</item>
-        <item>pas</item>
-        <item>gcd</item>
-        <item>etx</item>
-        <item>tcl</item>
-        <item>tex</item>
-        <item>ltx</item>
-        <item>sty</item>
-        <item>cls</item>
-        <item>vcs</item>
-        <item>vcf</item>
-    </string-array>
-    <string-array name="other_type_files">
-        <item>zip</item>
-        <item>7z</item>
-        <item>rar</item>
-        <item>gz</item>
-        <item>gzip</item>
-        <item>tar</item>
-    </string-array>
-    <string-array name="Root_Path">
-        <item>baidu</item>
-        <item>netease</item>
-        <item>tencent</item>
-        <item>sina</item>
-        <item>. lbe</item>
-        <item>com.lbe.security</item>
-        <item>android</item>
-        <item>dcim</item>
-        <item>. android_secure</item>
-        <item>download</item>
-        <item>miui</item>
-        <item>movie</item>
-        <item>notifications</item>
-        <item>pictures</item>
-        <item>ringtones</item>
-        <item>. bluetooth</item>
-        <item>albumart</item>
-        <item>gameloft</item>
-        <item>lost.dir</item>
-        <item>my documents</item>
-        <item>media</item>
-        <item>downloaded_rom</item>
-        <item>music</item>
-        <item>picture</item>
-        <item>snda</item>
-        <item>video</item>
-        <item>sdfuse</item>
-        <item>mnt</item>
-        <item>audio</item>
-        <item>bluetooth</item>
-        <item>playlists</item>
-        <item>cache</item>
-        <item>books</item>
-        <item>document</item>
-        <item>openfeint</item>
-        <item>glu</item>
-        <item>record</item>
-        <item>. utsystemconfig</item>
-        <item>. thumbnails</item>
-        <item>msc</item>
-        <item>muzhiwan</item>
-        <item>. splanner_spenmemo</item>
-        <item>pictures / ideasketch</item>
-        <item>pictures / screenshots</item>
-        <item>samsung</item>
-        <item>dcim / .thumbnails</item>
-    </string-array>
-    <string-array name="Root_Path_Des">
-        <item>Baidu application cache</item>
-        <item>Netease application cache</item>
-        <item>Tencent Application Cache</item>
-        <item>Sina application cache</item>
-        <item>LBE Privacy space</item>
-        <item>LBE security master</item>
-        <item>application data directory</item>
-        <item>camera photography store directory</item>
-        <item>app2sd move directory</item>
-        <item>download directory</item>
-        <item>MIUI cache directory</item>
-        <item>movie store directory</item>
-        <item>notification sound storage directory</item>
-        <item>picture directory</item>
-        <item>custom ringtone store directory</item>
-        <item>Bluetooth cache directory</item>
-        <item>music album cover</item>
-        <item>Gameloft game data directory</item>
-        <item>lost files temporary directory</item>
-        <item>My Documents</item>
-        <item>media files</item>
-        <item>MIUI Brush Pack directory</item>
-        <item>music store directory</item>
-        <item>image storage directory</item>
-        <item>grand application cache</item>
-        <item>video store directory</item>
-        <item>Lenovo ROM upgrade directory</item>
-        <item>Moving application directory</item>
-        <item>audio storage directory</item>
-        <item>Bluetooth cache directory</item>
-        <item>Playlist</item>
-        <item>cache directory</item>
-        <item>books store directory</item>
-        <item>Documents directory</item>
-        <item>OpenFeint gaming platform cache</item>
-        <item>Glu game data directory</item>
-        <item>recording storage directory</item>
-        <item>Alibaba application cache</item>
-        <item>thumbnail storage directory</item>
-        <item>camera temporary directory</item>
-        <item>thumb playing application directory</item>
-        <item>S Planner graffiti backup</item>
-        <item>S Note creative sketch</item>
-        <item>screenshot store</item>
-        <item>Samsung Data</item>
-        <item>photos and video thumbnails</item>
-    </string-array>
-    
-    <!-- 5.2.6840 --> 
-    
-    <string-array name="endcalltype_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-        <string-array name="msglog_operate">
-        <item>Reply SMS</item>
-        <item>Call this number</item>
-        <item>Add to whitelist</item>
-        <item>Add to blacklist</item>
-        <item>Report</item>
-    </string-array>
-    <string-array name="calllog_operate">
-        <item>Delete</item>
-        <item>Reply SMS</item>
-        <item>Call this number</item>
-        <item>Add to whitelist</item>
-        <item>Add to blacklist</item>
-        <item>Restored to the system call log</item>
-    </string-array>
-        
+Pop-up ads and other hooliganism"</item><item>sms|SMS malicious behavior in behavior</item><item>spy|spyware malicious behavior in class act</item><item>bkd|contains backdoor malicious acts</item><item>rtt|malicious acts contain mention the right to act</item><item>"gen|By heuristic rules and broad-spectrum detection
+There may be false positives"</item><item>ads|contain adware</item><item>default|unknown threats</item></string-array>
+<string-array name="yellow_correction_has_num"><item>Merchant name is incorrect</item><item>Correct Merchant Other Information</item><item>Private numbers</item></string-array>
+<string-array name="yellow_correction_no_num"><item>Modify Contact</item><item>Add or Edit number</item><item>Other issues</item></string-array>
 </resources>
